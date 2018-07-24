@@ -19,3 +19,7 @@ HeaterControl.ino - Text file source code for Arduino
 Authors note: This works well with a Raspberry Pi to capture the text output
 via a terminal piped to a file.  I've used it for testing parts cheaply.  The 
 heaters get very hot and WILL cause an issue WHEN the relay fails. 
+
+PS.  Probably should strongly consider adding a flyback diode across the load and possibly the relay coil to preserve the relays.  
+https://en.wikipedia.org/wiki/Flyback_diode
+https://hackaday.com/2018/07/24/a-dramatic-demo-of-ac-versus-dc-switching/
